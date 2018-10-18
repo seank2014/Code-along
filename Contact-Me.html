@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Me</title>  
+    </head>
+    
+    <header><h1>Contact Me<h1></header>
+                <hr/>
+         <a href="Home.html">Home</a>
+    <hr/>
+        
+        
+    <body>
+        <main>
+            <h2>Information Request</h2>
+            <form action="submit.html" method="POST">
+            First Name:<br/> <input type="text" id="firstName"name="FirstName"/><br/>
+            Last Name:<br/> <input type="text" name="myLastName"/>  <br/>
+            Phone Number:<br/> <input type="text" name="myPhoneNumber"/>   <br/> 
+                <label for="contact">Best time to call:</label><br />
+<select id="contact" name="contact"> 
+<option value="default" selected>--Select One--</option>
+<option value="morning">Morning (8AM to 12PM Eastern)</option>
+<option value="afternoon">Afternoon (12PM to 5PM Eastern)</option>
+<option value="evening">Evening (5PM to 8PM Eastern)</option>
+</select></br>
+     
+             <legend>I am interested in (check all that apply):</legend>
+                 <fieldset>  
+             <input type="checkbox" name="myChoices" value="Front-End Web Development" checked/>Front-End Web Development<br/>
+                <input type="checkbox" name="myChoices" value="Back-End Web Development" checked/>Back-End Web Development<br/>
+                <input type="checkbox" name="myChoices" value="Database Design" checked/>Database Design<br/><br/>
+            </fieldset>
+                I have filled in the client questionare form:<br/>
+               <fieldset> <input type="radio" name="answer" value="Yes" checked/> Yes<br/>
+                   <input type="radio" name="answer" value="No"> No<br/></fieldset>
+                <br/> Additional Information:<br/> <textarea name="briefDescription"></textarea>
+                <br/><input type="submit"><br/>
+                
+            </form>
+            
+            <hr/>
+            <footer>
+            
+            </footer>
+        
+        </main>
+    </body>
+</html>
